@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 .App {
   text-align: center;
+  background: linear-gradient(to top, #536976, #292e49);
+  height: 100vh;
+}
+input {
+  border: 5px solid white;  
+  padding: 15px;
+  width: 35%;
+  background: rgba(255,255,255,0.5);
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 70px;
+  margin-right: 50px;
+  color: white;
+}
+input::placeholder{
+  font-size: 17px;
+  color: white;
+}
+input:focus{
+  background-color:rgba(255,255,255,0.1) ;
+}
+button{
+  border: 5px solid white;  
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 50px;
+  color: white;
+}
+button:active{
+  background-color:rgba(255,255,255,0.1) ;
+}
+h1{
+  margin: 0px;
+  font-family: "Sail";
+  font-size: 70px;
+  color: #fff;
+}
+li{
+  border-radius: 40px;
+  list-style-type: none;
+  border: 2px solid white;
+  width: 35%;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+.delbn{
+  margin-left: 50px;
+  margin-top: 10px;
 }
