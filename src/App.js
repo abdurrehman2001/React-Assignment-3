@@ -16,11 +16,12 @@ function App() {
     setTodo(arr)
   }
   const deleteAll = () => {
+    setTodo([])
   }
   return (
     <div className="App">
       <h1>Todo List</h1>
-      <input value={value} onChange={(e) => setValue(e.target.value)} type="text" placeholder="Enter Your Todo"/>
+      <input value={value} onChange={(e) => setValue(e.target.value)} type="text" placeholder="Enter Your Todo" />
       <button onClick={addTodo}>Add Item</button>
       <button onClick={deleteAll}>Delete All</button>
       <ul>
